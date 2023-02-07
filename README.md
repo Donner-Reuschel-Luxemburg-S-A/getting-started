@@ -13,6 +13,7 @@
 2. [Git & Gitflow](#git--gitflow)
    1. [Overview](#overview)
    2. [Default Operations](#default-operations)
+3. [Install Python](#install-python)
 
 ## SSH
 
@@ -124,3 +125,11 @@ If you push your local branch the first time to the central repository, you have
 git push --set-upstream-to <remote> <remote-branch>    # set upstream of current branch to <remote-branch> at <remote>
 git push --set-upstream-to origin my-awesome-feature   # set upstream of current branch to my-awesome-feature at origin
 ```
+
+## Install Python
+
+Download [Python 3.9.13](https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe)-Installer and install it for
+your user. Make sure you select `Add to PATH` before installing it. 
+
+Then you can add a new virtual environment in PyCharm based on your Python executable installed in 
+`C:\Users\<username>\AppData\Local\Programs\Python\Python39\python.exe`
